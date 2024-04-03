@@ -5,11 +5,25 @@ function Login() {
   return (
     <main style={{ backgroundImage: `url(${backgroundImage})` }}> 
       <div className="h-screen w-full bg-emerald-400 bg-opacity-40 flex justify-center">
-        <div className="bg-white rounded-xl h-[36rem] mt-20 w-[23rem] border-2 border-black">
+        <div className="bg-white rounded-xl h-[43rem] mt-20 w-[25rem] border-2 border-black">
           <h1 className="text-center text-3xl font-bold text-gray-800 p-10">
             Welcome to the Health
           </h1>
           <form className="px-8 pt-6 pb-8 mb-4">
+            <div className="mb-4">
+              <label
+                className="block text-gray-700 text-sm font-bold mb-2  p-2"
+                htmlFor="email"
+              >
+                Full Name
+              </label>
+              <input
+                className="shadow appearance-none border rounded border-black w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="name"
+                type="name"
+                placeholder="Full Name"
+              />
+            </div>
             <div className="mb-4">
               <label
                 className="block text-gray-700 text-sm font-bold mb-2  p-2"
@@ -40,7 +54,7 @@ function Login() {
             </div>
             <div className="flex items-center justify-center">
               <button
-                className="bg-emerald-700 hover:bg-emerald-900 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline hover:animate-pulse"
+                className="bg-emerald-700 w-[25rem] hover:bg-emerald-900 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline hover:animate-pulse"
                 type="button"
               >
                 Sign Up

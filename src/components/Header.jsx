@@ -71,17 +71,17 @@ function Header() {
               <div
                 className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
               >
-                Home
+                About Us
               </div>
               <div
                 className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
               >
-                Developer
+                Health Checkup
               </div>
               <div
                 className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
               >
-                About
+                Doctor
               </div>
             </div>
           </div>
@@ -89,17 +89,17 @@ function Header() {
         <div
           className="rounded-lg px-3 py-2 glow hidden md:block text-base mr-8 ease-in-out duration-500 font-semibold "
         >
-          Home
+          About us
         </div>
         <div
           className="rounded-lg px-3 py-2 glow hidden md:block text-base mr-8 ease-in-out duration-500 font-semibold "
         >
-          Developer
+          Health Checkup
         </div>
         <div
           className="rounded-lg px-3 py-2 glow hidden md:block text-base mr-8 ease-in-out duration-500 font-semibold "
         >
-          About
+          Doctor
         </div>
       </div>
     </div>

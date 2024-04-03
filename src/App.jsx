@@ -7,8 +7,7 @@ function App() {
     <main className="w-full h-screen bg-gradient-to-b from-gray-300  to-white">
    <Home/>
     </main>
-    // <Login />
-    // <Header />
+
   );
 }
 
